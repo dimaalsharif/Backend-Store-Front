@@ -1,0 +1,1 @@
+create table order_products (id serial primary key,orderid bigint REFERENCES orders(id) on delete cascade,productid bigint REFERENCES products(id),quantity int);

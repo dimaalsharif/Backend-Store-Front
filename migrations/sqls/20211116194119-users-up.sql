@@ -1,0 +1,1 @@
+create table users (firstname varchar,lastname varchar, username varchar unique, password_digest varchar, id serial primary key)
