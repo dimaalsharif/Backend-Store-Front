@@ -39,14 +39,14 @@ This repo contains a basic Node and Express app to get you started in constructi
 -Server: 3000
 
 ## ENV VALUES:
-POSTGRES_HOST=127.0.0.1
-POSTGRES_USER=store_admin
-POSTGRES_DB=store_front
-POSTGRES_DB_TEST = store_front_test
-POSTGRES_PASSWORD=dimasha12
-ENV=test
-SALT=10
-SECRET_PASSWORD=thisisdima
-TOKEN_SECRET=heythere
+- POSTGRES_HOST=127.0.0.1
+- POSTGRES_USER=store_admin
+- POSTGRES_DB=store_front
+- POSTGRES_DB_TEST = store_front_test
+- POSTGRES_PASSWORD=dimasha12
+- ENV=test
+- SALT=10
+- SECRET_PASSWORD=thisisdima
+- TOKEN_SECRET=heythere
 
 
