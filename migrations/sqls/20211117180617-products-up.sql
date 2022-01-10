@@ -1,1 +1,12 @@
-create table products (name varchar,price int,category varchar,id serial primary key);
+create table products (name varchar,price int,category varchar,imageURL varchar,productDesc varchar,id serial primary key);
+
+insert into products values('Necklace',40.00,'Accessories','https://images.unsplash.com/photo-1625792508553-5e66a81659fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fG5lY2tsYWNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60','Convenient for everyday jewelry!');
+insert into products values('Water Bottle',15.00,'Sports Equipment','https://images.unsplash.com/photo-1605714312496-01e90cb509cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdhdGVyJTIwYm90dGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60','To keep you hydrated!');
+insert into products values('Dress',30.00,'Clothing','https://images.unsplash.com/flagged/photo-1585052201332-b8c0ce30972f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZHJlc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60','To complete your glamorous look!');
+insert into products values('PlayStation',100.00,'Entertainment Equipment','https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGxheXN0YXRpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60','To get entertained in your free time!');
+insert into products values('Microwave',150.00,'Kitchen utensils','https://media.istockphoto.com/photos/modern-kitchen-microwave-oven-picture-id1144960519?b=1&k=20&m=1144960519&s=170667a&w=0&h=6MgLR4m-Z5sDONRB8d1ch9RXtUcYfiUCtjv6Szx7FJ0=','An essential for your kitchen!');
+insert into products values('Hair Straightener',60.00,'Electronics','https://media.istockphoto.com/photos/hairstyling-iron-picture-id1224865735?b=1&k=20&m=1224865735&s=170667a&w=0&h=UQTFjpEyLj9O55rZ4HeHMwn95I0FjTsHIy9vConmvSQ=','To give your hair the best shine!');
+insert into products values('Running Shoes',35.00,'Sports Equipment','https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHJ1bm5pbmclMjBzaG9lc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60','Perfect for your workout!');
+insert into products values('Bracelet',30.00,'Accessories','https://media.istockphoto.com/photos/hematite-bracelet-natural-stone-picture-id1125091566?b=1&k=20&m=1125091566&s=170667a&w=0&h=T4c5B01N1q3hkmYBY2Dzx4cy2T3vTzFkhyYakxSLIFw=','Convenient for everyday jewelry!');
+insert into products values('T-Shirt',10.00,'Clothing','https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2hpcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60','Casual and comfy for your to-go days!');
+

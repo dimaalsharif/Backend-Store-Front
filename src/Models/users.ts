@@ -1,5 +1,5 @@
 import client from '../database';
-import bcrypt from 'bcrypt';
+import bcrypt from 'bcryptjs';
 
 const { SALT, PASSWORD_SECRET } = process.env;
 export type user = {
